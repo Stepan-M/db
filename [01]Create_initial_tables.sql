@@ -74,6 +74,7 @@ CREATE TABLE Flights
 	ArrivalDateTime smalldatetime
 )
 
+/* Logs */
 CREATE TABLE Logs
 (
 	LogId int primary key identity (1,1),
