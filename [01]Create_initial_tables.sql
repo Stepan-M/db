@@ -60,9 +60,16 @@ CREATE TABLE CustomerClaim
 CREATE TABLE Airports
 (
 	AirportId int primary key identity (1,1),
-	CityEn nvarchar(50),
-	CityCyrillic nvarchar(50),
-	IataCode nvarchar(3)
+	IataCode nvarchar(3),
+	AirportNameRu nvarchar (150),
+	AirportNameUa nvarchar (100),
+	AirportNameEn nvarchar (100),
+	CityRu nvarchar(100),
+	CityUa nvarchar(100),
+	CityEn nvarchar(100),
+	CountryRu nvarchar(100),
+	Lattitude nvarchar(50),
+	Longitude nvarchar(50)
 )
 
 CREATE TABLE Flights
