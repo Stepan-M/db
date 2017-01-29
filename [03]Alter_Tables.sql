@@ -4,7 +4,6 @@ GO
 ALTER TABLE Customers
 ADD Address NVARCHAR(500)
 
-/* replaces AuthorId with WasCreatedByCustomer */
 DROP TABLE CustomerClaim
 DROP TABLE Logs
 DROP TABLE Claims
